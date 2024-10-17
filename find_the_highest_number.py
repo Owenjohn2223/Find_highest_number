@@ -1,5 +1,5 @@
 # Finding_highest_number
-numbers = input("Enter 5 numbers separated by spaces: ")
+numbers = input("Enter 5 numbers separated by spaces: ").split()
 
 num1 = float(numbers[0])
 num2 = float(numbers[1])
@@ -19,5 +19,5 @@ if num2 > highest:
 # ...the fourth with the fith number
 
 # Print off the highest number
-
+print ("The highest number is:", highest)
 
