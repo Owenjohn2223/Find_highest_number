@@ -14,9 +14,16 @@ highest = num1
 if num2 > highest:
     highest = num2
 
-# ...the third with the fourth number
+# ...the third and the fourth number
+if num3 > highest:
+    highest = num3
 
-# ...the fourth with the fith number
+if num4 > highest:
+    highest = num4
+
+# ...and the fith number
+if num5 > highest:
+    highest = num5
 
 # Print off the highest number
 print ("The highest number is:", highest)
